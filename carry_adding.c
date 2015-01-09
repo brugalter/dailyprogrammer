@@ -69,6 +69,7 @@ int main (int argc, char** args) {
       printf("%d", remains[i]);
     }
   }
+  printf("\n");
 
   free(endpoints);
   free(returnval);
